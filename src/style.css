@@ -1,0 +1,66 @@
+/* テーブルのtdの幅を固定 */
+/* .checkform table td {
+    width: 320px;
+    min-width: 320px !important;
+    max-width: 320px !important;
+} */
+
+/* テーブルの枠の太さ３ｐｘ */
+.table{
+    border-collapse: collapse;
+    border: 3px;
+}
+
+/* confirm.php */
+.body2{
+    width: 1000px;
+}
+.table2 td {
+    border-collapse: collapse;
+    width: 320px;
+    min-width: 320px !important;
+    max-width: 320px !important;
+}
+/* ヘッダー */
+.header2{
+    background-color: coral;
+}
+.title2{
+    text-align: center;
+    margin: 0%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* センター要素横並び */
+.contents{
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+/* サイドバー */
+.sidebar2{
+    background-color: lightgrey;
+    padding-top: 20px;
+}
+.contentRight{
+    background-color: rgb(232, 232, 162);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.btn_send2{
+    margin-left: auto;
+    display: block;
+}
+
+.btn_return{
+    margin-left: auto;
+    display: block;
+}
+
+/* フッターの背景色 */
+.footer2{
+    height: 50px;
+    background-color: lightblue;
+}
+
