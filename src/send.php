@@ -31,6 +31,7 @@
 
     if ($name && $companyName && $email && $age && $message === $_GET) {
         //index.phpのページに戻る処理
+        header('Location:http://localhost:8080/send.php');
     }
 
 
