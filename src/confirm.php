@@ -89,7 +89,7 @@
                 <input type="hidden" id="message" name="message" value="<?php echo $message; ?>">
                 <div class="btns">
                     <input type="button" class="btn_return" value="戻る" onclick="history.back()">
-                    <input type="submit" class="btn_send2" value="送信" onclick="location.href='./send.php'"><br>
+                    <input type="submit" class="btn_send2" value="送信"><br>
                 </div>
             </form>
         </div>
